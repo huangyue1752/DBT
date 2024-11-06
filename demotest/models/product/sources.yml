@@ -1,0 +1,6 @@
+version: 2
+sources:
+  - name: streaming1
+    schema: product
+    tables:
+      - name: product
