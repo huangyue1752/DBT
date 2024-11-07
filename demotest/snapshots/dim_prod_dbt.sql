@@ -9,6 +9,6 @@
     )
 }}
 
-select * from {{ source('streaming1', 'product') }}
+select * from {{ source('streaming2', 'product') }}
 
 {% endsnapshot %}

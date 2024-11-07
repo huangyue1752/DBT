@@ -1,6 +1,12 @@
 version: 2
 sources:
   - name: streaming1
-    schema: product
+    schema: silver
+    tables:
+      - name: weather_table
+      - name: shopify_orders
+  - name: streaming2
+    schema: product  # Schema for another group of tables
     tables:
       - name: product
+      - name: customers_history
